@@ -74,7 +74,7 @@ nav h1{
 
 .phoneNumber, .posizione, .motto{
 	background: #1c1c1e;
-	width: 80%;
+	width: 90%;
 	min-height: 4vh;
 	display: flex;
 	flex-direction: column;
