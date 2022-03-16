@@ -1,0 +1,189 @@
+@font-face {
+  font-family: FontBold;
+  src: url(Raleway-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: FontLight;
+  src: url(Raleway-Light.ttf);
+}
+
+
+body{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: FontBold;
+}
+
+
+/* carta 1 */
+.carta1{
+position: absolute;
+width: 40vh;
+height: 30vh;
+top: 30vh;
+z-index: 2;
+background: linear-gradient(244.97deg, #BF8C4E 5.84%, #F2DC99 20.77%, #D9AF62 45.28%, #F2D680 71.49%, #BF8C4E 92.89%);
+border-radius: 28px;
+transform: rotate(90deg);
+}
+
+/* Hamburgeria Rava */
+.nomecarta{
+position: absolute;
+font-size: 3.7vh;
+height: 68px;
+left: 4vh;
+top: 1vh;
+
+font-family: FontBold;
+font-style: normal;
+font-weight: 400;
+line-height: 44px;
+
+color: #FFFFFF;
+text-shadow: 2px 0px 0px rgba(0, 0, 0, 0.5);
+}
+
+/* cellulare: 12345678 */
+.cellulare{
+position: absolute;
+left: 4vh;
+top: 10vh;
+
+font-family: FontLight;
+font-style: normal;
+font-weight: 400;
+font-size: 2.5vh;
+line-height: 29px;
+
+color: #FFFFFF;
+text-shadow: 2px 0px 0px rgba(0, 0, 0, 0.5);
+}
+
+/* Via Francesco Cangiullo, 22 Roma */
+.via{
+position: absolute;
+left: 4vh;
+top: 22vh;
+
+font-family: FontLight;
+font-style: normal;
+font-weight: 400;
+font-size: 2.5vh;
+line-height: 29px;
+
+color: #FFFFFF;
+
+text-shadow: 2px 0px 0px rgba(0, 0, 0, 0.5);
+}
+
+/* email: barrava.info@gmail.com */
+.mail{
+position: absolute;
+left: 4vh;
+top: 18vh;
+
+font-family: FontLight;
+font-style: normal;
+font-weight: 400;
+font-size: 2.5vh;
+line-height: 29px;
+
+color: #FFFFFF;
+
+text-shadow: 2px 0px 0px rgba(0, 0, 0, 0.5);
+}
+
+/* telefono fisso: 12345678 */
+.fisso{
+position: absolute;
+left: 4vh;
+top: 14vh;
+
+font-family: FontLight;
+font-style: normal;
+font-weight: 400;
+font-size: 2.5vh;
+line-height: 29px;
+
+color: #FFFFFF;
+
+text-shadow: 2px 0px 0px rgba(0, 0, 0, 0.5);
+}
+
+
+.bg{
+	position: absolute;
+	bottom: 0;
+	height: 60vh;
+	width: 100%;
+	background: #40372D;
+	border-radius: 10% 10% 0 0;
+}
+
+.pocket, .pocketBack, .pocketBack2{
+	z-index: 3;
+	position: absolute;
+	bottom: 10vh;
+	height: 35vh;
+	width: 90%;
+	background: #40372D;
+	border-radius: 50px;
+	box-shadow: 0 -16px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.pocketBack{
+	z-index: 1;
+    bottom: 15vh;
+}
+
+.pocketBack2{
+	z-index: 0;
+    bottom: 20vh;
+}
+
+
+a{
+	z-index: 3;
+	position: absolute;
+	bottom: 25vh;
+	height: 10vh;
+	width: 30vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	text-decoration: none;
+}
+
+a img{
+	height: 10vh;
+}
+
+a .save{
+	height: 5vh;
+	width: 18vh;
+	background: #0a84ff;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 2.3vh;
+	text-decoration: none;
+	/*box-shadow: 0 16px 10px 0 rgba(0, 0, 0, 0.25);*/
+	border-radius: 2%;
+	font-family: FontLight;
+}
+
+.titolo{
+	font-size: 3.5vh;
+	margin: 0%;
+	margin-top: 10vh;
+}
+
+.sottotitolo{
+	font-family: FontLight;
+	font-size: 2.5vh;
+	margin-top: 2%;
+}
